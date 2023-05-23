@@ -1,0 +1,19 @@
+{
+    "name": "pc/test",
+    "description": "test de composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "radoheritiana",
+            "email": "radoheritiana.rhja.123@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.6"
+    }
+}
